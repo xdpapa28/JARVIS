@@ -23,8 +23,8 @@ def system():
          subprocess.call(["termux-tts-speak","it's a computer virus and it's disturb half world. "])
      elif "who am i" in inp:
          subprocess.call(["termux-tts-speak","You are my master. Your Name Ankit Yadav.You are too smart.I too impressed that my name Jarvis. Love you sir "])
-       elif "lock screen" in inp:
-        os.system("termux-screen off")          
+    
+        
        elif "flight mode on" in inp:
         os.system("termux-flight mode on")              
        elif "Chrome on" in inp:
