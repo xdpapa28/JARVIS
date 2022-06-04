@@ -23,10 +23,10 @@ def system():
          subprocess.call(["termux-tts-speak","it's a computer virus and it's disturb half world. "])
      elif "who am i" in inp:
          subprocess.call(["termux-tts-speak","You are my master. Your Name Ankit Yadav.You are too smart.I too impressed that my name Jarvis. Love you sir "])
-      elif "data off" in inp:
-        os.system("termux-data off")                           
-      elif "data on" in inp:
-        os.system("termux-data on")                               
+
+                     
+
+                              
      elif "telegram" in inp:
         os.system("termux-open https://telegram/")                                    
      elif "Abb kaam per lago" in inp:
